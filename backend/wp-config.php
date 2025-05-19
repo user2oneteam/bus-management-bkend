@@ -5,8 +5,8 @@ if (isset($_SERVER['HTTP_HOST'])) {
 } else {
     $server_host = 'localhost'; // Provide a default value
 }
-define( 'WP_HOME', 'http://' . $server_host );
-define( 'WP_SITEURL', 'http://' . $server_host );
+define( 'WP_HOME', 'https://' . $server_host );
+define( 'WP_SITEURL', 'https://' . $server_host );
 
 // (it gets parsed by the upstream wizard in https://github.com/WordPress/WordPress/blob/f27cb65e1ef25d11b535695a660e7282b98eb742/wp-admin/setup-config.php#L356-L392)
 
