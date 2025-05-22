@@ -1,0 +1,59 @@
+[10-May-2025 22:16:37 UTC] Location ETA update response: 1
+[19-May-2025 03:16:29 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:29 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:42 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:42 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:17:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:17:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:17:44 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:17:44 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:18:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:18:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:19:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:19:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:19:56 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:19:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:23:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:23:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:24:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:24:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:25:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:25:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:25:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:25:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:26:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:26:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:27:39 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:27:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:27:40 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:27:40 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:28:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:28:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:28:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:28:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:29:27 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:29:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:30:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:30:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:30:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:30:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:32:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 03:32:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 15:22:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 15:22:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-May-2025 16:20:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1988
