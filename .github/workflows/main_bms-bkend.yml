@@ -65,8 +65,9 @@ jobs:
         uses: azure/login@v2
         with:
            client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_48CF344F81D049FA98FA32E199964CB0 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_0BF33E052D70482FB51DCB7F5AC86A47 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1E7F7C7EF12D41F4AC96B0A291917BC3 }}
+           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_0BF33E052D70482FB51DCB7F5AC86A47 }}
+           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1E7F7C7EF12D41F4AC96B0A291917BC3 }}
+           auth-type: service-principal
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -75,4 +76,3 @@ jobs:
           app-name: 'bms-bkend'
           slot-name: 'Production'
           package: .
-          
