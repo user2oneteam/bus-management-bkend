@@ -19,7 +19,7 @@ jobs:
           creds: '{ "clientId": "${{ secrets.AZURE_CLIENT_ID }}", "clientSecret": "${{ secrets.AZURE_CLIENT_SECRET }}", "subscriptionId": "${{ secrets.AZURE_SUBSCRIPTION_ID }}", "tenantId": "${{ secrets.AZURE_TENANT_ID }}" }'
 
       - name: ACR Login
-        uses: azure/acr-login@v1
+        uses: azure/acr-login@65c1ef99a66549505822715a4eefb09995c3c594
         with:
           acr: ${{ secrets.ACR_NAME }}
 
