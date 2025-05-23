@@ -13,13 +13,17 @@ define( 'WP_SITEURL', 'http://bms-bkend-egfhadfmbkcbcnh9.canadacentral-01.azurew
 /** The name of the database for WordPress */
 
 /** Database username */
-define( 'DB_USER', 'aatovharhe' );
+define( 'DB_USER', 'rssb' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Tabcloud123*' );
+define( 'DB_PASSWORD', 'tsc123*' );
 
 /** Database hostname */
-define( 'DB_HOST', 'bms-bkend-server.mysql.database.azure.com' );
+if ( isset( $_ENV['WORDPRESS_DB_HOST'] ) ) {
+	define( 'DB_HOST', 'db' );
+} else {
+	define( 'DB_HOST', '40.69.106.103' );
+}
 
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
