@@ -1,7 +1,6 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
+ More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - bms-bkend
+name: Build and deploy PHP app to Azure Web App - bms1
 
 on:
   push:
@@ -49,6 +48,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
+      id-token: write #This is required for requesting the JWT
       contents: read #This is required for actions/checkout
 
     steps:
@@ -61,14 +61,11 @@ jobs:
         run: unzip release.zip
       
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/login@v2
         with:
            client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FEE078B6D8ED4CEC839E88F7FFAF04D9 }}
-           client-secret: ${{ secrets.AZUREAPPSERVICE_CLIENTSECRET }}
            tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_56781E14460448258A204FD9718A69DE }}
            subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_810A1CED09E0418D8073A8060D750593 }}
-           auth-type: 'SERVICE_PRINCIPAL'
-           environment: 'AzureCloud'
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -77,3 +74,4 @@ jobs:
           app-name: 'bms-bkend'
           slot-name: 'Production'
           package: .
+          
