@@ -20,7 +20,7 @@ jobs:
 
       - name: Login to ACR
         run: |
-          az acr login –-name ${{ secrets.ACR_NAME }}
+          az acr login -n ${{ secrets.ACR_NAME }}
 
       - name: Build and Push Image
         run: |
