@@ -31,7 +31,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: bms-bkend
-          images: ${{ secrets.ACR_NAME }}/${{ secrets.IMAGE_NAME }}
+          images: ${{ secrets.ACR_NAME }}.azurecr.io/${{ secrets.IMAGE_NAME }}
 
 env:
   AZURE_WEBAPP_NAME: bms-bkend
