@@ -5,8 +5,8 @@ if (isset($_SERVER['HTTP_HOST'])) {
 } else {
     $server_host = 'localhost'; // Provide a default value
 }
-define( 'WP_HOME', 'http://bms-bkend-egfhadfmbkcbcnh9.canadacentral-01.azurewebsites.net' );
-define( 'WP_SITEURL', 'http://bms-bkend-egfhadfmbkcbcnh9.canadacentral-01.azurewebsites.net' );
+define( 'WP_HOME', 'http://bms-bkend.azurewebsites.net' );
+define( 'WP_SITEURL', 'http://bms-bkend.azurewebsites.net' );
 
 // (it gets parsed by the upstream wizard in https://github.com/WordPress/WordPress/blob/f27cb65e1ef25d11b535695a660e7282b98eb742/wp-admin/setup-config.php#L356-L392)
 
@@ -20,7 +20,7 @@ define( 'DB_PASSWORD', 'tsc123*' );
 
 /** Database hostname */
 if ( isset( $_ENV['WORDPRESS_DB_HOST'] ) ) {
-	define( 'DB_HOST', 'db' );
+	define( 'DB_HOST', $_ENV['WORDPRESS_DB_HOST'] );
 } else {
 	define( 'DB_HOST', '40.69.106.103' );
 }
