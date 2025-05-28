@@ -5,8 +5,8 @@ if (isset($_SERVER['HTTP_HOST'])) {
 } else {
     $server_host = 'localhost'; // Provide a default value
 }
-define( 'WP_HOME', 'http://bms-bkend.azurewebsites.net' );
-define( 'WP_SITEURL', 'http://bms-bkend.azurewebsites.net' );
+define( 'WP_HOME', 'https://bms-bkend.azurewebsites.net' );
+define( 'WP_SITEURL', 'https://bms-bkend.azurewebsites.net' );
 
 
 // (it gets parsed by the upstream wizard in https://github.com/WordPress/WordPress/blob/f27cb65e1ef25d11b535695a660e7282b98eb742/wp-admin/setup-config.php#L356-L392)
@@ -102,4 +102,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define(‘WPDB_PATH’, ABSPATH . ‘wp-includes/class-wpdb.php’);
+define('WPDB_PATH', ABSPATH . 'wp-includes/class-wpdb.php');
