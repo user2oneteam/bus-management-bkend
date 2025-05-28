@@ -3880,7 +3880,9 @@ class wpdb {
 	 * @return mixed Column results.
 	 */
 	public function get_col_info( $info_type = 'name', $col_offset = -1 ) {
-		$this->load_col_info();
+		if ( ! $this->col_info ) { //vb
+			$this->load_col_info();
+		} //vb
 
 		if ( $this->col_info ) {
 			if ( -1 === $col_offset ) {
