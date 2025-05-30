@@ -1750,7 +1750,7 @@ class wpdb {
 					$value = '';
 				}
 
-				$args_escaped[] = $this->_real_escape( $value );
+				$args_escaped[] = is_null( $value ) ? '' : $this->_real_escape( $value );
 			}
 		}
 
