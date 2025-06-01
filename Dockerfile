@@ -11,3 +11,18 @@ RUN a2enmod rewrite
 
 # Copy your WordPress code into the container
 COPY . /var/www/html
+
+# Install SSH
+RUN apt-get update && apt-get install -y openssh-server
+
+# Configure SSH
+RUN mkdir -p /run/sshd
+RUN echo "root:rs123*" | chpasswd
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+RUN sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+
+# Expose SSH port
+EXPOSE 2222
+
+# Start SSH service
+CMD ["/usr/sbin/sshd", "-D"]
