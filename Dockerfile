@@ -22,7 +22,7 @@ RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/
 RUN sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 
 # Expose SSH port
-EXPOSE 2222
+EXPOSE 22
 
 # Start SSH service
-CMD ["/usr/sbin/sshd", "-D"]
+ENTRYPOINT service ssh start && /usr/sbin/sshd -D
