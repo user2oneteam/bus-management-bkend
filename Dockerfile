@@ -25,4 +25,4 @@ RUN sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/ss
 EXPOSE 22
 
 # Start SSH service
-ENTRYPOINT service ssh start && /usr/sbin/sshd -D
+ENTRYPOINT service ssh start && /usr/sbin/sshd -D && cat /var/www/html/wp-config.php && service apache2 status
