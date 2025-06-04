@@ -21,8 +21,5 @@ RUN echo "root:rs123*" | chpasswd
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 RUN sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 
-# Expose SSH port
-EXPOSE 22
-
-# Start SSH service
-ENTRYPOINT service ssh start && /usr/sbin/sshd -D && cat /var/www/html/wp-config.php && service apache2 status
+# Start Apache web server
+ENTRYPOINT service apache2 start
