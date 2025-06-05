@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('JWT_AUTH_SECRET_KEY', '9Tj8In-*EU/60l4r@bP)ez$9p,NE6TS{)8+c-;ZSQ`04*]ZKVZ35O48h3c|-SgH');
-define('JWT_AUTH_CORS_ENABLE', true);
+#define('JWT_AUTH_SECRET_KEY', '9Tj8In-*EU/60l4r@bP)ez$9p,NE6TS{)8+c-;ZSQ`04*]ZKVZ35O48h3c|-SgH');
+#define('JWT_AUTH_CORS_ENABLE', true);
 
-define('ALLOW_UNFILTERED_UPLOADS', true);
+#define('ALLOW_UNFILTERED_UPLOADS', true);
 
 define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
-define('WP_DEBUG_DISPLAY', true);
+#define('WP_DEBUG_LOG', true);
+#define('WP_DEBUG_DISPLAY', true);
 
 define( 'AUTH_KEY',         '6d1ca5ecf6a40866e09067b9e74b55e181bb8b75' );
 define( 'SECURE_AUTH_KEY',  'b62ef4af54ce5d8a29c73c049cfc1155d0f14a5a' );
@@ -102,4 +102,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define('WPDB_PATH', ABSPATH . 'wp-includes/class-wpdb.php');
+#define('WPDB_PATH', ABSPATH . 'wp-includes/class-wpdb.php');
