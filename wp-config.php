@@ -23,7 +23,7 @@ define( 'DB_PASSWORD', 'tsc123*' );
 if ( isset( $_ENV['WORDPRESS_DB_HOST'] ) ) {
 	define( 'DB_HOST', trim($_ENV['WORDPRESS_DB_HOST'], " \t\n\r\0\x0B,") );
 } else {
-	define( 'DB_HOST', '40.69.106.103' );
+	define( 'DB_HOST', '20.48.204.15' );
 }
 
 /** The name of the database for WordPress */
