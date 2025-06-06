@@ -88,6 +88,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
+define( 'WP_HOME', 'http://bkend-bms-fna6bwdsavczgchc.canadacentral-01.azurewebsites.net' );
+define( 'WP_SITEURL', 'http://bkend-bms-fna6bwdsavczgchc.canadacentral-01.azurewebsites.net' );
 
 
 
