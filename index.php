@@ -12,6 +12,8 @@
  * @var bool
  */
 define( 'WP_USE_THEMES', true );
+define( 'WP_HOME', 'http://bkend-bms-fna6bwdsavczgchc.canadacentral-01.azurewebsites.net' );
+define( 'WP_SITEURL', 'http://bkend-bms-fna6bwdsavczgchc.canadacentral-01.azurewebsites.net' );
 
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';
