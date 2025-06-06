@@ -1750,7 +1750,7 @@ class wpdb {
 					$value = '';
 				}
 
-				$args_escaped[] = is_null( $value ) ? '' : $this->_real_escape( $value );
+				$args_escaped[] = $this->_real_escape( $value );
 			}
 		}
 
@@ -3033,11 +3033,7 @@ class wpdb {
 
 		// Extract var out of cached results based on x,y vals.
 		if ( ! empty( $this->last_result[ $y ] ) ) {
-			if (is_object($this->last_result[ $y ])) {
-				$values = array_values( get_object_vars( $this->last_result[ $y ] ) );
-			} else {
-				return null;
-			}
+			$values = array_values( get_object_vars( $this->last_result[ $y ] ) );
 		}
 
 		// If there is a value return it, else return null.
@@ -3884,9 +3880,7 @@ class wpdb {
 	 * @return mixed Column results.
 	 */
 	public function get_col_info( $info_type = 'name', $col_offset = -1 ) {
-		if ( ! $this->col_info ) { //vb
-			$this->load_col_info();
-		} //vb
+		$this->load_col_info();
 
 		if ( $this->col_info ) {
 			if ( -1 === $col_offset ) {
