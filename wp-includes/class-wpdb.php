@@ -3033,7 +3033,11 @@ class wpdb {
 
 		// Extract var out of cached results based on x,y vals.
 		if ( ! empty( $this->last_result[ $y ] ) ) {
-			$values = array_values( get_object_vars( $this->last_result[ $y ] ) );
+			if (is_object($this->last_result[ $y ])) {
+				$values = array_values( get_object_vars( $this->last_result[ $y ] ) );
+			} else {
+				return null;
+			}
 		}
 
 		// If there is a value return it, else return null.
